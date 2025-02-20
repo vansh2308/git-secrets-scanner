@@ -20,7 +20,7 @@ Ensure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/AkhilSharma90/Git-Secrets-Scanner.git
+   git clone https://github.com/vansh2308/git-secrets-scanner.git
    cd git-secret-scanner
    ```
 
