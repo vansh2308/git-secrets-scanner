@@ -1,0 +1,18 @@
+
+# Global configuration
+log_level: info
+output_format: csv
+
+# Platform-specific settings
+github:
+  max_repos: 100
+  timeout: 30m
+
+gitlab:
+  max_groups: 50
+  timeout: 45m
+
+# Ignore patterns
+ignore:
+  - pattern: "*test*"
+  - pattern: "*.md"
