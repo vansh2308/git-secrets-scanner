@@ -3,9 +3,9 @@ package scm
 import (
 	"context"
 
-	"github.com/AkhilSharma90/Git-Secrets-Scanner/internal/scm/git"
 	"github.com/google/go-github/v66/github"
 	"github.com/rs/zerolog/log"
+	"github.com/vansh2308/git-secrets-scanner.git/internal/scm/git"
 )
 
 type GithubScm struct {

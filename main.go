@@ -5,9 +5,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/AkhilSharma90/Git-Secrets-Scanner/cmd"
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
+	"github.com/vansh2308/git-secrets-scanner.git/cmd"
 )
 
 func main() {

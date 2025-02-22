@@ -3,7 +3,7 @@ package scanners
 import (
 	"strings"
 
-	"github.com/AkhilSharma90/Git-Secrets-Scanner/internal/scm/git"
+	"github.com/vansh2308/git-secrets-scanner.git/internal/scm/git"
 )
 
 const (

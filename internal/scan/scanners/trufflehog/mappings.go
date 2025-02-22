@@ -1,6 +1,6 @@
 package trufflehog
 
-import "github.com/AkhilSharma90/Git-Secrets-Scanner/internal/report/secret"
+import "github.com/vansh2308/git-secrets-scanner.git/internal/report/secret"
 
 // See https://raw.githubusercontent.com/trufflesecurity/trufflehog/refs/heads/main/proto/detectors.proto
 var TrufflehogSecretKindMapping = map[string]secret.SecretKind{

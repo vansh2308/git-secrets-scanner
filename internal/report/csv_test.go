@@ -8,8 +8,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/AkhilSharma90/Git-Secrets-Scanner/internal/report/secret"
 	"github.com/gocarina/gocsv"
+	"github.com/vansh2308/git-secrets-scanner.git/internal/report/secret"
 )
 
 var reportPath = path.Join("../../test/report_test.csv")

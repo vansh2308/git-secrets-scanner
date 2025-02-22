@@ -10,8 +10,8 @@ import (
 	"os/exec"
 	"path"
 
-	"github.com/AkhilSharma90/Git-Secrets-Scanner/internal/report/secret"
-	"github.com/AkhilSharma90/Git-Secrets-Scanner/internal/scan/scanners"
+	"github.com/vansh2308/git-secrets-scanner.git/internal/report/secret"
+	"github.com/vansh2308/git-secrets-scanner.git/internal/scan/scanners"
 )
 
 type GitleaksReportItem struct {

@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/AkhilSharma90/Git-Secrets-Scanner/internal/report/secret"
+	"github.com/vansh2308/git-secrets-scanner.git/internal/report/secret"
 )
 
 func TestLoadBaseline(t *testing.T) {

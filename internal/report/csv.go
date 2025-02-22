@@ -3,8 +3,8 @@ package report
 import (
 	"os"
 
-	"github.com/AkhilSharma90/Git-Secrets-Scanner/internal/report/secret"
 	"github.com/gocarina/gocsv"
+	"github.com/vansh2308/git-secrets-scanner.git/internal/report/secret"
 )
 
 type CSVReportWriter struct {

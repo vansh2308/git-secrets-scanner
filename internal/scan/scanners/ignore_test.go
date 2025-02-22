@@ -5,8 +5,8 @@ import (
 	"path"
 	"testing"
 
-	"github.com/AkhilSharma90/Git-Secrets-Scanner/internal/scm/git"
-	"github.com/AkhilSharma90/Git-Secrets-Scanner/internal/utils"
+	"github.com/vansh2308/git-secrets-scanner.git/internal/scm/git"
+	"github.com/vansh2308/git-secrets-scanner.git/internal/utils"
 )
 
 var testPath string = path.Join(utils.TempDirPath(), "tests")

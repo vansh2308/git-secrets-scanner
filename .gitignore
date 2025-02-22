@@ -28,3 +28,5 @@ bin
 # Report files
 report.csv
 **/report_test.csv
+
+.DS_Store

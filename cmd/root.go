@@ -3,8 +3,8 @@ package cmd
 import (
 	"os"
 
-	"github.com/AkhilSharma90/Git-Secrets-Scanner/cmd/scm"
 	"github.com/spf13/cobra"
+	"github.com/vansh2308/git-secrets-scanner.git/cmd/scm"
 )
 
 var rootCmd = &cobra.Command{

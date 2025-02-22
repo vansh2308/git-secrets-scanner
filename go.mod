@@ -1,4 +1,4 @@
-module github.com/AkhilSharma90/Git-Secrets-Scanner
+module github.com/vansh2308/git-secrets-scanner.git
 
 go 1.23.0
 

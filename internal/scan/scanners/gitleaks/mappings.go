@@ -1,6 +1,6 @@
 package gitleaks
 
-import "github.com/AkhilSharma90/Git-Secrets-Scanner/internal/report/secret"
+import "github.com/vansh2308/git-secrets-scanner.git/internal/report/secret"
 
 var GitleaksSecretKindMapping = map[string]secret.SecretKind{
 	"1password-service-account-token":    secret.SecretKind1Password,

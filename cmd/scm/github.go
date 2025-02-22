@@ -4,10 +4,10 @@ import (
 	"context"
 	"os"
 
-	"github.com/AkhilSharma90/Git-Secrets-Scanner/internal/scan"
-	"github.com/AkhilSharma90/Git-Secrets-Scanner/internal/scm"
 	"github.com/rs/zerolog/log"
 	"github.com/spf13/cobra"
+	"github.com/vansh2308/git-secrets-scanner.git/internal/scan"
+	"github.com/vansh2308/git-secrets-scanner.git/internal/scm"
 )
 
 const TokenEnvVarGithub string = "GITHUB_TOKEN"

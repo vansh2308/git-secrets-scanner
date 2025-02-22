@@ -1,6 +1,6 @@
 package report
 
-import "github.com/AkhilSharma90/Git-Secrets-Scanner/internal/report/secret"
+import "github.com/vansh2308/git-secrets-scanner.git/internal/report/secret"
 
 type ReportWriter interface {
 	WriteAll(s []*secret.Secret) error

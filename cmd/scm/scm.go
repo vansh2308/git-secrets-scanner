@@ -3,13 +3,13 @@ package scm
 import (
 	"fmt"
 
-	"github.com/AkhilSharma90/Git-Secrets-Scanner/internal/scan"
-	"github.com/AkhilSharma90/Git-Secrets-Scanner/internal/scm"
-	"github.com/AkhilSharma90/Git-Secrets-Scanner/internal/scm/git"
-	"github.com/AkhilSharma90/Git-Secrets-Scanner/internal/utils"
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
 	"github.com/spf13/cobra"
+	"github.com/vansh2308/git-secrets-scanner.git/internal/scan"
+	"github.com/vansh2308/git-secrets-scanner.git/internal/scm"
+	"github.com/vansh2308/git-secrets-scanner.git/internal/scm/git"
+	"github.com/vansh2308/git-secrets-scanner.git/internal/utils"
 )
 
 const (

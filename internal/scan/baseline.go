@@ -1,9 +1,9 @@
 package scan
 
 import (
-	"github.com/AkhilSharma90/Git-Secrets-Scanner/internal/report"
-	"github.com/AkhilSharma90/Git-Secrets-Scanner/internal/report/secret"
 	"github.com/rs/zerolog/log"
+	"github.com/vansh2308/git-secrets-scanner.git/internal/report"
+	"github.com/vansh2308/git-secrets-scanner.git/internal/report/secret"
 )
 
 var baseline map[string]secret.SecretSet

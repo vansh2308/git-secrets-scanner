@@ -6,15 +6,15 @@ import (
 	"fmt"
 	"path"
 
-	"github.com/AkhilSharma90/Git-Secrets-Scanner/internal/progress"
-	"github.com/AkhilSharma90/Git-Secrets-Scanner/internal/report"
-	"github.com/AkhilSharma90/Git-Secrets-Scanner/internal/scan/scanners/gitleaks"
-	"github.com/AkhilSharma90/Git-Secrets-Scanner/internal/scan/scanners/trufflehog"
-	"github.com/AkhilSharma90/Git-Secrets-Scanner/internal/scm"
-	"github.com/AkhilSharma90/Git-Secrets-Scanner/internal/scm/git"
-	"github.com/AkhilSharma90/Git-Secrets-Scanner/internal/utils"
 	"github.com/go-git/go-git/v5/plumbing/transport"
 	"github.com/rs/zerolog/log"
+	"github.com/vansh2308/git-secrets-scanner.git/internal/progress"
+	"github.com/vansh2308/git-secrets-scanner.git/internal/report"
+	"github.com/vansh2308/git-secrets-scanner.git/internal/scan/scanners/gitleaks"
+	"github.com/vansh2308/git-secrets-scanner.git/internal/scan/scanners/trufflehog"
+	"github.com/vansh2308/git-secrets-scanner.git/internal/scm"
+	"github.com/vansh2308/git-secrets-scanner.git/internal/scm/git"
+	"github.com/vansh2308/git-secrets-scanner.git/internal/utils"
 )
 
 type ScanType int
